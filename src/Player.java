@@ -1,5 +1,4 @@
-package gal.uvigo.esei.aed1.chupatedos.core;
-
+package src;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -71,11 +70,8 @@ public class Player {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("Cartas de ").append(nombre);
-        int i = 1;
         for (Card carta : manoDeCartas) {
-            sb.append("(").append(i).append(")->").append(carta);
-            i++;
+            sb.append("->").append(carta);
         }
         return sb.toString();
     }

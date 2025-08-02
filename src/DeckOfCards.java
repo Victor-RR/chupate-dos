@@ -1,4 +1,4 @@
-package gal.uvigo.esei.aed1.chupatedos.core;
+package src;
 
 import java.util.Collections;
 import java.util.Random;

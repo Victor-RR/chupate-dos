@@ -1,8 +1,5 @@
-package gal.uvigo.esei.aed1.chupatedos.iu;
+package src;
 
-import gal.uvigo.esei.aed1.chupatedos.core.Game;
-
-// ULTIMA MODIFICACIÓN 19/05/2025 15:30, EVA
 /**
  * Clase principal para la ejecución de la aplicación.
  *
@@ -15,6 +12,10 @@ public class Main {
     public static void main(String[] args) {
         IU iu = new IU();
         Game chupateDos = new Game(iu);
-        chupateDos.play();
+        try{
+            chupateDos.play();
+        }catch(Exception e){
+
+        }
     }
 }

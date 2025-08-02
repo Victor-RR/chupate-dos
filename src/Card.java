@@ -1,4 +1,4 @@
-package gal.uvigo.esei.aed1.chupatedos.core;
+package src;
 
 /**
  * Enumerado que representa todas las posibles cartas de la baraja española.

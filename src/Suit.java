@@ -1,4 +1,4 @@
-package gal.uvigo.esei.aed1.chupatedos.core;
+package src;
 
 /**
  * Enumerado que representa los palos de la baraja española.
